@@ -1,0 +1,24 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haimy125/blog.git"
+    },
+    "author": "myph",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/haimy125/blog/issues"
+    },
+    "homepage": "https://github.com/haimy125/blog#readme",
+    "devDependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.12"
+    }
+}
