@@ -1,0 +1,32 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-css": "node-sass src/resources/scss/ --output src/public/css/",
+"watch": "nodemon -e scss -x npm run build-css",
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/haimy125/blog.git"
+    },
+    "author": "myph",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/haimy125/blog/issues"
+    },
+    "homepage": "https://github.com/haimy125/blog#readme",
+    "devDependencies": {
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "express-handlebars": "^5.3.3"
+    }
+}
